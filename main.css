@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.cell {
+    width: 20px;
+    height: 20px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: bold;
+    text-align: center;
+    background-color: grey;
+
+}
+.cell.openCell {
+    background-color: lightgrey;
+}
+.cell.openMine {
+    background-color: grey;
+}
+
+.boardRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.inputRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#board {
+    margin-bottom: 10px;
+}
+
+#resetButton {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input {
+    margin: 2px 5px;
+    width: 100px;
+}
